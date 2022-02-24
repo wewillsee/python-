@@ -1,0 +1,63 @@
+ 1.print(3)
+print(3.14159)
+
+ print(内容1,内容2,内容3....):可以输出多个内容 在一行中输出多个结果 
+ 结果之间用空格隔开了
+
+    print(内容, end='')    不换行输出 
+    例如 print('我的', end='')
+             print('你的')的输出结果为
+             我的你的
+             print('我的')
+             print('你的')的输出结果为
+             我的
+             你的
+    print(内容, sep='') 去除多个内容之间的空格
+             例如print('我的', '你的',sep='')
+             输出结果为 我的你的
+             print('我的', '你的')
+             输出结果为  我的 你的
+代码标准
+所有可用标点符号全为英文
+注释 标准为 代码（两个空格）#（一个空格）内容
+标识符
+1.不能以数字开头  0abc 1abc
+2.由字母(A-Z a-z)或者_开头  Test  现阶段不要使用下划线开头  a
+3.不能以关键字命名
+    关键字有：['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 
+    'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 
+    'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+    4.尽量使用驼峰的命名方式去命名
+    my_name:我的名字
+    如果是模块名(python的文件名) 则首字母大写 其后所跟的所有单词首字母大写
+    如果是标识符 则首字母小写 其后所跟的所有单词首字母大写
+        my_Name 
+        inputdemo-> InputDemo
+变量   标识符 = 要储存的数据
+
+id内置函数 可以知道这个标识符的内存地址
+    语法： print(id(标识符))
+
+type内置函数  可以知道这个标识符的类型
+    语法: print(type(标识符))
+    字符串 （str）
+    字符：可以理解为一个字
+    将多个字符串连起来的数据叫做字符串
+    '可以理解为一个字'
+    'abcdefg'
+数字 （Numerical）
+    整数 int
+        0 1 2 3 4 5... -1 -2
+    浮点型(小数点类型) float
+        1.2 2.3 3.14159...
+    布尔类型  bool
+        只有两种 True/False
+        描述一个事件的结果
+        mulk老师今年18岁了... 假的/False 0
+        我们正在上第二次课   真的/True 非0的值为true 1
+
+
+
+列表 list
+元组 tuple
+字典 dict
